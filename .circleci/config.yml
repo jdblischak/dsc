@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: ubuntu:bionic
+      - image: travisci/ci-ubuntu-1804:packer-1566551110-e45a2919
     steps:
       - restore_cache:
           keys:
